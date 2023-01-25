@@ -13,4 +13,5 @@ def handle_disconnect(sid):
     print(sid, 'disconnected')
 
 if __name__ == '__main__':
+    print('yes')
     socketio.run(app)
